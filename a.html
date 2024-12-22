@@ -1,10 +1,19 @@
-<!DOCTYPE html>
 <html>
-  <body>
-    <p>Adding JS as seperate file</p>
-    <button type="button" onclick="myFunction()">Click Me!</button>
-    <p id="demo"></p>
-    <script src="script.js">
+
+<head>
+
+</head>
+
+<body>
+    <button onclick="myfunction(5)">Wxecute JS function</button>
+    <script>
+        function myfunction(x, y) {
+            if (y === undefined) {
+                y = 2;
+            }
+            document.write(x * y)
+        }
     </script>
-  </body>
+</body>
+
 </html>
